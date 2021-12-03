@@ -1,0 +1,7 @@
+geth init command:
+geth --datadir ./ init genesis.json
+
+geth console command:
+geth --datadir ./ --http --http.port 8545 --port 30303 --allow-insecure-unlock --http.corsdomain="https://remix.ethereum.org" --http.api web3,eth,debug,personal,net --vmdebug --nodiscover --ipcdisable --rpc.txfeecap 0 console
+
+单次交易的梯度规模 <1460, 取1000
